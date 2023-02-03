@@ -3,7 +3,7 @@ import Form from '../components/Form';
 
 const Home = () => (
   <>
-    <div className="main">
+    <div>
       <div>
         <Form />
       </div>
