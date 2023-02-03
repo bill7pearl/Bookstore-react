@@ -28,13 +28,13 @@
 
 # 💻 Book Store <a name="about-project"></a>
 
-> **Book Store** is a Microverce React MVP project. Using this project user can read a book. User can see a book list. User can update a book. And also User can delete book from the book list.
+> **Book Store** is a Microverce React MVP project where the user can read, edit , update and delete a book.
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
 
-> I used React, Redux, Javascript and css to build this project.
+> I used React, Javascript to build this project.
 
 <details>
   <summary>Client</summary>
@@ -61,7 +61,7 @@
  ### [Live Demo](https://book-store-1ok9.onrender.com/)
 
 ## Project demo
->![bookstore](https://user-images.githubusercontent.com/35267447/214837157-45734f12-5466-4238-9e15-d4b68eb66c9b.png)
+>
 
 > 
 
@@ -82,7 +82,7 @@
 > Clone this repository to your desired folder: cd [folder] to navigate and run the below comand to clone the project
 
 ```sh
-git clone https://github.com/raihan2bd/book-store.git
+git clone https://github.com/bill7pearl/Bookstore-react.git
 ```
 
 ### Install
@@ -121,11 +121,11 @@ npm run build
 
 ## 👥 Author <a name="authors"></a>
 
-👤 **Abu Raihan**
+👤 **Billal Chami**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/raihan2bd)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/raihan2bd)
+- GitHub: [@githubhandle](https://github.com/bill7pearl)
+- Twitter: [@twitterhandle](https://twitter.com/BillChami)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/billal-chami-263497194/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
