@@ -5,7 +5,6 @@ const Categories = () => (
     <div><p /></div>
     <div><p /></div>
     <button type="button">Check status</button>
-    <p>HI</p>
   </div>
 );
 
