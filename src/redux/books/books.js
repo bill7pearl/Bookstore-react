@@ -15,7 +15,7 @@ export const removeBook = (itemId) => ({
   itemId,
 });
 
-const booksReducer = (state = [
+const initialState = [
   {
     itemId: id(), title: 'Oliver Twist', author: 'Charles Dikens', category: 'sc-fi',
   },
@@ -28,7 +28,9 @@ const booksReducer = (state = [
   {
     itemId: id(), title: 'Les Misérables', author: 'Victor Hugo', category: 'historical fiction',
   },
-], action = {}) => {
+];
+
+const booksReducer = (state = initialState, action = {}) => {
   switch (action.type) {
     case ADD_BOOK:
       return [...state, action.book];
