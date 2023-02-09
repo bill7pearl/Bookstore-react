@@ -1,14 +1,15 @@
 import React from 'react';
 import Form from '../components/Form';
+import BookRender from '../components/BookRender';
 
 const Home = () => (
   <>
     <div>
-      <div>
-        <Form />
-      </div>
+      <BookRender />
     </div>
-
+    <div>
+      <Form />
+    </div>
   </>
 );
 
