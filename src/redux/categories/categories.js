@@ -5,7 +5,7 @@ const initialState = {
   msg: '',
 };
 
-const statusCheck = () => ({
+const StatusCheck = () => ({
   type: STATUS_CHECKING,
 });
 
@@ -22,5 +22,5 @@ const categoryReducer = (state = initialState, action) => {
   }
 };
 
-export default statusCheck;
+export default StatusCheck;
 export { categoryReducer };
