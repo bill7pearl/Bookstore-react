@@ -9,7 +9,6 @@ const BookRender = () => {
 
   useEffect(() => {
     dispatch(renderBooks());
-    // eslint-disable-next-line
   }, []);
 
   return (
