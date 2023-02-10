@@ -1,6 +1,6 @@
 import React from 'react';
 import Form from './Form';
-import BookRenderer from './bookRender';
+import BookRenderer from './bookRenderer';
 
 const HomePage = () => (
   <>
