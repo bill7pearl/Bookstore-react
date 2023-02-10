@@ -1,11 +1,11 @@
 import React from 'react';
 import Form from './Form';
-import BookRender from './BookRender';
+import BookRenderer from './bookRenderer';
 
-const Home = () => (
+const HomePage = () => (
   <>
     <div>
-      <BookRender />
+      <BookRenderer />
     </div>
     <div>
       <Form />
@@ -13,4 +13,4 @@ const Home = () => (
   </>
 );
 
-export default Home;
+export default HomePage;
