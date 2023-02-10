@@ -32,16 +32,12 @@ function Form() {
       <form onSubmit={handleSubmit}>
         <input
           type="text"
-          id="title"
-          name="title"
           placeholder="Book title"
           onChange={(event) => setTitle(event.target.value)}
           value={title}
         />
         <input
           type="text"
-          id="author"
-          name="author"
           placeholder="Add author"
           onChange={(event) => setAuthor(event.target.value)}
           value={author}
