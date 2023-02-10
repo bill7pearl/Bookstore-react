@@ -8,6 +8,7 @@ function Form() {
     .substring(1);
   const [title, setTitle] = useState('');
   const [author, setAuthor] = useState('');
+  const [category, setCategory] = useState('Drama');
   const dispatch = useDispatch();
 
   const handleSubmit = (event) => {
@@ -16,11 +17,13 @@ function Form() {
       itemId: id(),
       title,
       author,
+      category,
     };
 
     dispatch(addBook(newBook));
     setTitle('');
     setAuthor('');
+    setCategory('');
   };
 
   return (

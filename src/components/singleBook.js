@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { useDispatch } from 'react-redux';
-import { removeBook } from '../redux/books/books';
+import { deleteBook } from '../redux/books/books';
 
 const SingleBook = ({
   itemId, title, author, category,
@@ -9,7 +9,7 @@ const SingleBook = ({
   const dispatch = useDispatch();
 
   const handleRemove = () => {
-    dispatch(removeBook(itemId));
+    dispatch(deleteBook(itemId));
   };
 
   return (
