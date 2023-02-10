@@ -1,11 +1,11 @@
 import React from 'react';
 import Form from './Form';
-import BookRender from './bookRender';
+import BookRenderer from './bookRender';
 
 const HomePage = () => (
   <>
     <div>
-      <BookRender />
+      <BookRenderer />
     </div>
     <div>
       <Form />

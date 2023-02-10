@@ -3,7 +3,7 @@ import { useEffect } from 'react';
 import SingleBook from './singleBook';
 import { renderBooks } from '../redux/books/books';
 
-const BookRender = () => {
+const BookRenderer = () => {
   const books = useSelector((state) => state.books);
   const dispatch = useDispatch();
 
@@ -29,4 +29,4 @@ const BookRender = () => {
   );
 };
 
-export default BookRender;
+export default BookRenderer;
