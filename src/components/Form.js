@@ -27,8 +27,8 @@ function Form() {
   };
 
   return (
-    <div>
-      <h2>ADD NEW BOOK</h2>
+    <main className="form-inputs">
+      <h2 className="form-title">ADD NEW BOOK</h2>
       <form onSubmit={handleSubmit}>
         <input
           type="text"
@@ -42,9 +42,9 @@ function Form() {
           onChange={(event) => setAuthor(event.target.value)}
           value={author}
         />
-        <button type="submit">ADD BOOK</button>
+        <button className="form-btn" type="submit">ADD BOOK</button>
       </form>
-    </div>
+    </main>
   );
 }
 
