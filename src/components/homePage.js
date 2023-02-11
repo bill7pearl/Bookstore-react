@@ -7,7 +7,7 @@ const HomePage = () => (
     <div>
       <BookRenderer />
     </div>
-    <div>
+    <div className="form-container">
       <Form />
     </div>
   </>
