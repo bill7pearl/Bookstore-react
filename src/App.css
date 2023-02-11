@@ -6,14 +6,12 @@
 }
 
 body {
-  padding: 9.313rem 3.75rem 7.688rem 6.25rem;
   background-color: #f5f6fa;
 }
 
 .wrapper {
   background-color: #fff;
   height: 5.938rem;
-  margin: 0 0 2.375rem;
   padding: 1.438rem 6.188rem 1.688rem 6.25rem;
 }
 
@@ -60,15 +58,14 @@ a {
 .books-container {
   display: flex;
   flex-direction: column;
-  gap: 20px;
-  margin-bottom: 40px;
+  margin: 2rem 6.25rem 0;
+  gap: 10px;
 }
 
 .single-book-container {
   display: flex;
   justify-content: space-between;
   height: 10.625rem;
-  margin: 2.313rem 6.25rem 0;
   padding: 2rem 9.188rem 1.625rem 1.688rem;
   border-radius: 4px;
   border: solid 1px #e8e8e8;
@@ -137,8 +134,8 @@ a {
 }
 
 .form-container {
-  margin: 2.313rem 6.25rem 0;
-  padding: 2rem 9.188rem 1.625rem 1.688rem;
+  margin: 2rem 6.25rem 0;
+  padding: 1rem 9.188rem 1.625rem 0.2rem;
 }
 
 .form-title {
@@ -152,13 +149,13 @@ a {
 
 form {
   display: flex;
-  width: 100px;
+  width: 100%;
 }
 
 input {
   height: 2.813rem;
   margin: 1.188rem 2.125rem 0 0;
-  padding: 0 6rem;
+  padding: 0 10.5rem;
   border-radius: 4px;
   border: solid 1px #e8e8e8;
   background-color: #fff;
@@ -167,7 +164,7 @@ input {
 .form-btn {
   height: 2.813rem;
   margin: 1.188rem 0 0 2.125rem;
-  padding: 0 4rem;
+  padding: 0 5rem;
   border-radius: 3px;
   background-color: #0290ff;
   color: #fff;
